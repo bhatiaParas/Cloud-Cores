@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo h1 {
+    color: #001A80;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  header nav ul li {
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  header nav ul li a {
+    flex: 3;
+    display: flex;
+    text-decoration: none;
+    color: #001A80;
+    font-size: 18px;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    padding: 20px;
+  }
+  
+  .main-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-form {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #001A80;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    width: 35%;
+    background-color: #001A80;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h2 {
+    margin-top: 0;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin-right: 40px;
+    gap: 40px;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+  }
